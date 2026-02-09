@@ -1,0 +1,49 @@
+# --- Build Directories ---
+build/
+build_out/
+bin/
+lib/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+out/
+
+# --- CMake Artifacts ---
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# --- IDEs & Editors ---
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# --- Compiled Binaries & Objects ---
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+*.a
+*.lib
+
+# --- NVIDIA / CUDA Specifics ---
+*.nvvp
+*.qdrep
+*.nsys-rep
+*.sqlite
+*.cubin
+*.ptx
+
+# --- Python (If you use scripts) ---
+__pycache__/
+*.pyc
+.venv/
+env/
