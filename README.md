@@ -10,14 +10,15 @@ Orin).
 
 ## 📂 Engineering Log
 
-| #   | Problem Name          | Date Solved  |             Solution              | Key Concepts                            |
-|:----|:----------------------|:-------------|:---------------------------------:|:----------------------------------------|
-| 001 | Vector Addition       | Feb 06, 2025 |  [Code](./src/001_vector_add.cu)  | Global Memory, Grid-Stride Loop         |
-| 002 | Matrix Multiplication | Feb 06, 2025 |  [Code](./src/002_matrix_mul.cu)  | 2D Indexing, Memory Coalescing          |
-| 003 | Color Inversion       | Feb 07, 2025 | [Code](./src/003_color_invert.cu) | `uchar4` Types, Casts                   |
-| 004 | Matrix Transpose      | Feb 08, 2025 |  [Code](./src/004_transpose.cu)   | Shared Memory (Bank Conflict Avoidance) |
-| 005 | Matrix Add            | Feb 08, 2025 |   [Code](./src/005_mat_add.cu)    | Add matrix                              |
-| 006 | Convolution 1D        | Feb 10, 2025 |   [Code](./src/005_mat_add.cu)    | for loop inside kernel                  |
+| #   | Problem Name          | Date Solved  |              Solution              | Key Concepts                            |
+|:----|:----------------------|:-------------|:----------------------------------:|:----------------------------------------|
+| 001 | Vector Addition       | Feb 06, 2025 |  [Code](./src/001_vector_add.cu)   | Global Memory, Grid-Stride Loop         |
+| 002 | Matrix Multiplication | Feb 06, 2025 |  [Code](./src/002_matrix_mul.cu)   | 2D Indexing, Memory Coalescing          |
+| 003 | Color Inversion       | Feb 07, 2025 | [Code](./src/003_color_invert.cu)  | `uchar4` Types, Casts                   |
+| 004 | Matrix Transpose      | Feb 08, 2025 |   [Code](./src/004_transpose.cu)   | Shared Memory (Bank Conflict Avoidance) |
+| 005 | Matrix Add            | Feb 08, 2025 |    [Code](./src/005_mat_add.cu)    | Add matrix                              |
+| 006 | Convolution 1D        | Feb 10, 2025 |  [Code](./src/006_convolution.cu)  | for loop inside kernel                  |
+| 007 | Reverse Array         | Feb 10, 2025 | [Code](./src/007_reverse_array.cu) | swap inside kernel                      |
 
 ## 🛠️ Build & Run
 

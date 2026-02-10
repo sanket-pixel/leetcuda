@@ -73,4 +73,5 @@ int main() {
 }
 EOF
 
+git add .
 echo "✅ Created: $NEW_FILE"
