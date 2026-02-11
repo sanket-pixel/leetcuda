@@ -19,7 +19,8 @@ Orin).
 | 005 | Matrix Add            | Feb 08, 2025 |    [Code](./src/005_mat_add.cu)    | Add matrix                              |
 | 006 | Convolution 1D        | Feb 10, 2025 |  [Code](./src/006_convolution.cu)  | for loop inside kernel                  |
 | 007 | Reverse Array         | Feb 10, 2025 | [Code](./src/007_reverse_array.cu) | swap inside kernel                      |
-| 008 | Reverse Array         | Feb 11, 2025 |     [Code](./src/008_relu.cu)      | if inside kernel                        |
+| 008 | RELU                  | Feb 11, 2025 |     [Code](./src/008_relu.cu)      | if inside kernel                        |
+| 009 | Leaky RELU            | Feb 11, 2025 |  [Code](./src/009_leaky_relu.cu)   | if inside kernel                        |
 
 ## 🛠️ Build & Run
 
