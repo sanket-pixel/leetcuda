@@ -21,6 +21,7 @@ Orin).
 | 007 | Reverse Array         | Feb 10, 2025 | [Code](./src/007_reverse_array.cu) | swap inside kernel                      |
 | 008 | RELU                  | Feb 11, 2025 |     [Code](./src/008_relu.cu)      | if inside kernel                        |
 | 009 | Leaky RELU            | Feb 11, 2025 |  [Code](./src/009_leaky_relu.cu)   | if inside kernel                        |
+| 010 | Rainbow Table         | Feb 12, 2025 | [Code](./src/010_rainbow_table.cu) | device function inside kernel           |
 
 ## 🛠️ Build & Run
 
