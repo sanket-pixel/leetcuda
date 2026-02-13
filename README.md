@@ -23,6 +23,7 @@ Orin).
 | 009 | Leaky RELU            | Feb 11, 2025 |  [Code](./src/009_leaky_relu.cu)   | if inside kernel                        |
 | 010 | Rainbow Table         | Feb 12, 2025 | [Code](./src/010_rainbow_table.cu) | device function inside kernel           |
 | 011 | Copy Matrix           | Feb 12, 2025 |  [Code](./src/011_matrix_copy.cu)  | 2D grid and block                       |
+| 012 | Count Occurences      | Feb 12, 2025 |     [Code](./src/012_count.cu)     | Atomic Add                              |
 
 ## 🛠️ Build & Run
 
