@@ -25,6 +25,7 @@ Orin).
 | 011 | Copy Matrix           | Feb 12, 2025 |  [Code](./src/011_matrix_copy.cu)  | 2D grid and block                       |
 | 012 | Count                 | Feb 13, 2025 |     [Code](./src/012_count.cu)     | Atomic Add                              |
 | 013 | Count 2D              | Feb 13, 2025 |   [Code](./src/013_count_2d.cu)    | Atomic Add, 2D index                    |
+| 013 | Sigmoid               | Feb 14, 2025 |    [Code](./src/014_sigmoid.cu)    | exp in kernel                           |
 
 ## 🛠️ Build & Run
 
