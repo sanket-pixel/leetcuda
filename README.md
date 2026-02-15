@@ -28,6 +28,7 @@ Orin).
 | 014 | Sigmoid               | Feb 14, 2025 |    [Code](./src/014_sigmoid.cu)    | exp in kernel                           |
 | 015 | SwigLU                | Feb 14, 2025 |    [Code](./src/015_swiglu.cu)     | half indexing                           |
 | 016 | Clip                  | Feb 15, 2025 |     [Code](./src/016_clip.cu)      | if else                                 |
+| 017 | Interleave            | Feb 15, 2025 |  [Code](./src/017_interleave.cu)   | indexing * 2                            |
 
 ## 🛠️ Build & Run
 
