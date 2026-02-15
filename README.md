@@ -27,6 +27,7 @@ Orin).
 | 013 | Count 2D              | Feb 13, 2025 |   [Code](./src/013_count_2d.cu)    | Atomic Add, 2D index                    |
 | 014 | Sigmoid               | Feb 14, 2025 |    [Code](./src/014_sigmoid.cu)    | exp in kernel                           |
 | 015 | SwigLU                | Feb 14, 2025 |    [Code](./src/015_swiglu.cu)     | half indexing                           |
+| 016 | Clip                  | Feb 15, 2025 |     [Code](./src/016_clip.cu)      | if else                                 |
 
 ## 🛠️ Build & Run
 
