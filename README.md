@@ -29,6 +29,7 @@ Orin).
 | 015 | SwigLU                | Feb 14, 2025 |    [Code](./src/015_swiglu.cu)     | half indexing                           |
 | 016 | Clip                  | Feb 15, 2025 |     [Code](./src/016_clip.cu)      | if else                                 |
 | 017 | Interleave            | Feb 15, 2025 |  [Code](./src/017_interleave.cu)   | indexing * 2                            |
+| 017 | GeGLU                 | Feb 16, 2025 |     [Code](./src/018_geglu.cu)     | indexing * 2                            |
 
 ## 🛠️ Build & Run
 
