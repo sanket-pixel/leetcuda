@@ -10,26 +10,27 @@ Orin).
 
 ## 📂 Engineering Log
 
-| #   | Problem Name          | Date Solved  |              Solution              | Key Concepts                            |
-|:----|:----------------------|:-------------|:----------------------------------:|:----------------------------------------|
-| 001 | Vector Addition       | Feb 06, 2025 |  [Code](./src/001_vector_add.cu)   | Global Memory, Grid-Stride Loop         |
-| 002 | Matrix Multiplication | Feb 06, 2025 |  [Code](./src/002_matrix_mul.cu)   | 2D Indexing, Memory Coalescing          |
-| 003 | Color Inversion       | Feb 07, 2025 | [Code](./src/003_color_invert.cu)  | `uchar4` Types, Casts                   |
-| 004 | Matrix Transpose      | Feb 08, 2025 |   [Code](./src/004_transpose.cu)   | Shared Memory (Bank Conflict Avoidance) |
-| 005 | Matrix Add            | Feb 08, 2025 |    [Code](./src/005_mat_add.cu)    | Add matrix                              |
-| 006 | Convolution 1D        | Feb 10, 2025 |  [Code](./src/006_convolution.cu)  | for loop inside kernel                  |
-| 007 | Reverse Array         | Feb 10, 2025 | [Code](./src/007_reverse_array.cu) | swap inside kernel                      |
-| 008 | RELU                  | Feb 11, 2025 |     [Code](./src/008_relu.cu)      | if inside kernel                        |
-| 009 | Leaky RELU            | Feb 11, 2025 |  [Code](./src/009_leaky_relu.cu)   | if inside kernel                        |
-| 010 | Rainbow Table         | Feb 12, 2025 | [Code](./src/010_rainbow_table.cu) | device function inside kernel           |
-| 011 | Copy Matrix           | Feb 12, 2025 |  [Code](./src/011_matrix_copy.cu)  | 2D grid and block                       |
-| 012 | Count                 | Feb 13, 2025 |     [Code](./src/012_count.cu)     | Atomic Add                              |
-| 013 | Count 2D              | Feb 13, 2025 |   [Code](./src/013_count_2d.cu)    | Atomic Add, 2D index                    |
-| 014 | Sigmoid               | Feb 14, 2025 |    [Code](./src/014_sigmoid.cu)    | exp in kernel                           |
-| 015 | SwigLU                | Feb 14, 2025 |    [Code](./src/015_swiglu.cu)     | half indexing                           |
-| 016 | Clip                  | Feb 15, 2025 |     [Code](./src/016_clip.cu)      | if else                                 |
-| 017 | Interleave            | Feb 15, 2025 |  [Code](./src/017_interleave.cu)   | indexing * 2                            |
-| 017 | GeGLU                 | Feb 16, 2025 |     [Code](./src/018_geglu.cu)     | indexing * 2                            |
+| #   | Problem Name          | Date Solved  |               Solution                | Key Concepts                            |
+|:----|:----------------------|:-------------|:-------------------------------------:|:----------------------------------------|
+| 001 | Vector Addition       | Feb 06, 2025 |    [Code](./src/001_vector_add.cu)    | Global Memory, Grid-Stride Loop         |
+| 002 | Matrix Multiplication | Feb 06, 2025 |    [Code](./src/002_matrix_mul.cu)    | 2D Indexing, Memory Coalescing          |
+| 003 | Color Inversion       | Feb 07, 2025 |   [Code](./src/003_color_invert.cu)   | `uchar4` Types, Casts                   |
+| 004 | Matrix Transpose      | Feb 08, 2025 |    [Code](./src/004_transpose.cu)     | Shared Memory (Bank Conflict Avoidance) |
+| 005 | Matrix Add            | Feb 08, 2025 |     [Code](./src/005_mat_add.cu)      | Add matrix                              |
+| 006 | Convolution 1D        | Feb 10, 2025 |   [Code](./src/006_convolution.cu)    | for loop inside kernel                  |
+| 007 | Reverse Array         | Feb 10, 2025 |  [Code](./src/007_reverse_array.cu)   | swap inside kernel                      |
+| 008 | RELU                  | Feb 11, 2025 |       [Code](./src/008_relu.cu)       | if inside kernel                        |
+| 009 | Leaky RELU            | Feb 11, 2025 |    [Code](./src/009_leaky_relu.cu)    | if inside kernel                        |
+| 010 | Rainbow Table         | Feb 12, 2025 |  [Code](./src/010_rainbow_table.cu)   | device function inside kernel           |
+| 011 | Copy Matrix           | Feb 12, 2025 |   [Code](./src/011_matrix_copy.cu)    | 2D grid and block                       |
+| 012 | Count                 | Feb 13, 2025 |      [Code](./src/012_count.cu)       | Atomic Add                              |
+| 013 | Count 2D              | Feb 13, 2025 |     [Code](./src/013_count_2d.cu)     | Atomic Add, 2D index                    |
+| 014 | Sigmoid               | Feb 14, 2025 |     [Code](./src/014_sigmoid.cu)      | exp in kernel                           |
+| 015 | SwigLU                | Feb 14, 2025 |      [Code](./src/015_swiglu.cu)      | half indexing                           |
+| 016 | Clip                  | Feb 15, 2025 |       [Code](./src/016_clip.cu)       | if else                                 |
+| 017 | Interleave            | Feb 15, 2025 |    [Code](./src/017_interleave.cu)    | indexing * 2                            |
+| 018 | GeGLU                 | Feb 16, 2025 |      [Code](./src/018_geglu.cu)       | indexing * 2                            |
+| 019 | RGB to Grayscale      | Feb 16, 2025 | [Code](./src/019_rgb_to_grayscale.cu) | pixel math                              |
 
 ## 🛠️ Build & Run
 
