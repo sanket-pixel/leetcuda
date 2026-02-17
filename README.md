@@ -31,6 +31,7 @@ Orin).
 | 017 | Interleave            | Feb 15, 2025 |    [Code](./src/017_interleave.cu)    | indexing * 2                            |
 | 018 | GeGLU                 | Feb 16, 2025 |      [Code](./src/018_geglu.cu)       | indexing * 2                            |
 | 019 | RGB to Grayscale      | Feb 16, 2025 | [Code](./src/019_rgb_to_grayscale.cu) | pixel math                              |
+| 020 | Reduction Sum         | Feb 16, 2025 |    [Code](./src/020_reduction.cu)     | shared memory, reduction                |
 
 ## 🛠️ Build & Run
 
